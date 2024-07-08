@@ -1,0 +1,49 @@
+.header-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .parallelogram {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1300px;
+    height: 90%;
+    background: linear-gradient(90deg, rgba(58, 104, 143, 1) 0%, rgba(58, 122, 208, 1) 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 294px 100%, 0 calc(100% - 294px));
+    z-index: -1;
+  }
+  
+  .Header {
+    padding-left: 7% !important;
+    padding-right: 7% !important;
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .navbarstyle {
+    font-size: 16px;
+  }
+  
+  .logo-image {
+    height: 50px;
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-nav .nav-item {
+      text-align: center;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+    }
+  
+    .parallelogram {
+      width: 100%;
+      height: 50%;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 100%);
+    }
+  }
+  

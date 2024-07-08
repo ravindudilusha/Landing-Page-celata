@@ -1,0 +1,158 @@
+
+
+.product-section, .youtube-section {
+  padding-left: 15% !important;
+  padding-right: 15% !important;
+  padding-top: 3% !important;
+}
+
+.productimage {
+  height: 450px;
+}
+
+.productblueline-container {
+  width: 100%;
+  margin-top: 6%;
+  height: 3px;
+  background-color: rgb(10, 10, 142);
+}
+
+.product-01-title {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  font-size: 25px;
+  font-weight: 700;
+  background: #0d1694;
+  background: linear-gradient(to bottom, #0d1694 0%, #46b8cf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+}
+
+.productline-container{
+    display: flex;
+}
+
+.redproductline-container ,.blueproductline-container{
+    height: 5px;
+}
+
+.redproductline-container{
+    width: 40%;
+    background-color: rgb(199, 10, 13);
+}
+.blueproductline-container{
+    width: 60%;
+    background-color: rgb(10, 10, 142);
+}
+
+.quote-box, .Explorequote-box {
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background: rgba(245, 245, 245, 0.5);
+    padding: 20px;
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+  }
+
+  .Explorequote-box{
+    font-weight: 600;
+  }
+  
+.backgroundimage{
+    background-image: url(../Assests/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left 80px top 90px;
+}
+  
+  .quote-box::before, .Explorequote-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 5px;
+    background: #e3342f;
+  }
+  
+  .quote-text, .Explorequote-text {
+    margin-bottom: 0;
+    padding: 5px;
+    text-align: left;
+    font-size: 17px;
+    color: #333;
+    position: relative;
+    z-index: 1;
+    
+  }
+  
+  .quote-box::after , .Explorequote-box::after {
+    content: '”';
+    font-size: 90px;
+    color: rgba(227, 52, 47, 0.1);
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    z-index: 0;
+  }
+  .product-horizontalline{
+    width: 100%;
+    margin-top: 30%;
+  }
+
+  .read-more-btn {
+    display: flex;
+    width: 160px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid #000000; 
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.read-more-btn .icon {
+    margin-right: 8px;
+}
+
+.explorebackground-image{
+    background-image: url(../Assests/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left 300px top 50px; /* 50px margin from the top */
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: end;
+    margin-top: 5%;
+    gap: 20px;
+    align-items: center;
+    overflow: visible;
+}
+
+.arrow-left, .arrow-right {
+    font-size: 30px;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-left {
+    box-shadow: -6px 6px 15px rgba(249, 4, 4, 0.2); 
+}
+
+.arrow-right {
+    box-shadow: 6px 6px 15px rgba(249, 4, 4, 0.2); 
+}
+
+

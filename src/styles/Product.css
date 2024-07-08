@@ -173,7 +173,7 @@
 .explorebackground-image {
   background-image: url(../Assests/shape-1.png);
   background-repeat: no-repeat;
-  background-position: left 300px top 50px; /* 50px margin from the top */
+  background-position: left 300px top 50px; 
 }
 
 .arrow-container {
@@ -211,8 +211,8 @@
   margin-left: 2px;
   display: inline-block;
   background-color: #515cfc85;
-  padding: 2px 5px; /* Adjust padding as needed */
-  border-radius: 3px; /* Optional: Add border-radius for rounded corners */
+  padding: 2px 5px;
+  border-radius: 3px; 
 }
 
 .product-2-image{

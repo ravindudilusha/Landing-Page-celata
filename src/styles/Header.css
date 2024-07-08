@@ -31,7 +31,7 @@
   height: 50px;
 }
 
-/* Override Bootstrap's focus color */
+
 .navbar-toggler:focus {
   outline: none;
   box-shadow: none;
@@ -54,7 +54,7 @@
   }
 
   .parallelogram {
-    display: none; /* Hide parallelogram in mobile view */
+    display: none; 
   }
 }
 

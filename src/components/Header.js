@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className="header-container">
       <nav className="navbar navbar-expand-lg navbar-light bg-transparent Header">
-        <div className="container-fluid">
+        <div className="container-fluid p-2 p-md-0">
           <a className="navbar-brand" href="#">
             <img src={Logo} alt="logo" className="logo-image"/>
           </a>

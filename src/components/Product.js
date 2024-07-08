@@ -41,14 +41,14 @@ function Product() {
         </div>
       </div>
       <div className="row youtube-section explorebackground-image">
-        <div className="col-6">
+        <div className="col-8 col-md-6">
         <div className="Explorequote-box">
             <p className="Explorequote-text">
              Explore Products
             </p>
           </div>
       </div>
-      <div className="col-6">
+      <div className="col-4 col-md-6">
       <div className="arrow-container">
     <div className="arrow-left">
         <FaArrowLeft />
@@ -61,7 +61,7 @@ function Product() {
       </div>
       </div>
       <div className="row youtubevideo-section">
-        <div className="col-4">
+        <div className="col-12 col-md-4">
           <VideoPreview url="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
           <div className="Ourproductquote-box">
         <p className="Ourproductquote-text">
@@ -69,7 +69,7 @@ function Product() {
         </p>
       </div>
         </div>
-        <div className="col-4">
+        <div className="mt-3 mt-md-0 col-12 col-md-4">
           <VideoPreview url="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
           <div className="Ourproductquote-box">
         <p className="Ourproductquote-text">
@@ -77,7 +77,7 @@ function Product() {
         </p>
       </div>
         </div>
-        <div className="col-4">
+        <div className="mt-3 mt-md-0 col-12 col-md-4">
           <VideoPreview url="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
           <div className="Ourproductquote-box">
         <p className="Ourproductquote-text">
@@ -106,7 +106,7 @@ function Product() {
             Read More
         </a>
         </div>
-        <div className="col-12 col-md-6">
+        <div className="mt-3 mt-md-0 col-12 col-md-6">
             <img src={productimage2} alt="productimage-2" className="product-2-image"/>
         </div>
       </div>

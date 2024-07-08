@@ -1,0 +1,200 @@
+.footer-section{
+    padding-left: 12% !important;
+    padding-right: 12% !important;
+    padding-top: 3% !important;
+}
+
+
+.footerbackground {
+    background-color: rgb(15, 126, 182);
+    background-image: url("../Assests/home-page-background-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.question-text{
+    font-size: 17px;
+    margin-bottom: 0;
+}
+.questioncontainer {
+    display: flex;
+    justify-content: space-around;
+    gap: 450px;
+    align-items: center;
+    background: linear-gradient(to left, #820e33 0%, #cf1512 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.questioncontainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle, white 1px, transparent 1px);
+    background-size: 10px 10px;
+    opacity: 0.3; 
+    pointer-events: none;
+}
+
+.join-now-button {
+    background-color: white;
+    color: rgb(199, 10, 13);
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    z-index: 1;
+    width: 150px;
+}
+
+.join-now-button:hover {
+    background-color: lightgray;
+}
+
+.send-icon {
+    margin-left: 8px;
+    z-index: 1; /* Ensures the icon is above the pseudo-element */
+}
+
+.morse-code {
+    display: flex;
+    gap: 5px; /* Adjust the gap as needed */
+}
+
+.dot, .dash {
+    background-color: rgb(199, 10, 13);
+    height: 5px; /* Adjust the height as needed */
+}
+
+.dot {
+    width: 5px; /* Adjust the width as needed */
+}
+
+.dash {
+    width: 15px; /* Adjust the width as needed */
+}
+
+.footer-title{
+  font-size: 16px;
+    text-align: left;
+    margin-bottom: 3px;
+    color: white;
+    font-weight: 600;
+}
+
+.contact-info {
+    margin-top: 2px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    padding-top: 10px; /* Adjust padding as needed */
+  }
+  
+  .icon-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 40px; 
+    height: 40px; 
+    text-align: center; 
+    line-height: 30px; 
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .icon-container svg {
+    color: white; /* Icon color */
+    font-size: 20px; /* Adjust icon size as needed */
+  }
+  
+  .address-text,
+  .email-text,
+  .phone-text {
+    margin-left: 9px; /* Adjust spacing between icon and text */
+    font-size: 14px; /* Adjust font size as needed */
+    color: rgb(255, 255, 255); /* Adjust text color as needed */
+    text-align: left;
+
+  }
+  .social-media {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+  }
+  
+  .social-icon-container {
+    width: 40px; 
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; 
+    border-radius: 5px; 
+  }
+  
+  .social-icon {
+    color: red; 
+    font-size: 24px; 
+  }
+
+  .horizontal-dotted-line {
+    border-top: 3px dotted #ffffff64;
+    margin-top: 40px !important; 
+    width: 100%;
+  }
+
+  .copyright-text{
+    font-size: 12px;
+    color: white;
+  }
+
+  @media (max-width: 992px) {
+
+    .footer-section{
+      padding-left: 5% !important;
+      padding-right: 5% !important;
+      padding-top: 3% !important;
+    }
+    .questioncontainer{
+        gap: 15px;
+    }
+    .join-now-button {
+      background-color: white;
+      color: rgb(199, 10, 13);
+      border: none;
+      padding: 5px 10px;
+      font-size: 12px;
+      border-radius: 5px;
+      width: 100px;
+  }
+  .question-text{
+    font-size: 14px;
+}
+.questioncontainer{
+  width: 100%;
+}
+  }

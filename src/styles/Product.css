@@ -218,3 +218,64 @@
 .product-2-image{
     height: 450px;
 }
+
+@media (max-width: 992px) {
+  .product-01-title,
+.product-02-title{
+      font-size: 20px;
+  }
+
+  .product-section,
+.youtube-section,
+.youtubevideo-section,
+.product-02-section{
+      padding-left: 8% !important;
+      padding-right: 8% !important;
+      padding-top: 3% !important;
+  }
+  .quote-text,
+.Explorequote-text,
+.Ourproductquote-text {
+      font-size: 13px;
+  }
+  .productimage,
+  .product-2-image{
+      height: 250px;
+  }
+  .backgroundimage {
+    background-image: url(../Assests/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left 80px top 50px;
+  }
+  .arrow-container {
+    display: flex;
+    justify-content: end;
+    margin-top: 5%;
+    gap: 15px;
+    
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .quote-box,
+.Explorequote-box,
+.Ourproductquote-box{
+    height: 40px;
+    padding: 10px;
+    margin-top: 3%;
+  }
+  .quote-text,
+.Explorequote-text,
+.Ourproductquote-text {
+  
+  padding: 5px;
+  font-size: 12px;
+}
+.product-horizontalline {
+  margin-top: 50%;
+}
+}

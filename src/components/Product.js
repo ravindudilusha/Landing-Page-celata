@@ -134,9 +134,7 @@ function Product() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="row youtubevideo-section">
+        <div className="row youtubevideo-section">
         {videoPreviews
           .slice(currentSlide, currentSlide + videosPerPage)
           .map((video, index) => (
@@ -151,6 +149,8 @@ function Product() {
             </div>
           ))}
       </div>
+      </div>
+
 
       {/* Product 02 Section */}
       <div className="row product-02-section">

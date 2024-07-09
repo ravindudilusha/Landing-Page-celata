@@ -1,10 +1,13 @@
 .product-section,
 .youtube-section,
-.youtubevideo-section,
 .product-02-section {
   padding-left: 15% !important;
   padding-right: 15% !important;
   padding-top: 3% !important;
+}
+
+.youtubevideo-section{
+  margin-top: 2% !important;
 }
 
 .video-preview {
@@ -256,9 +259,12 @@
       font-size: 20px;
   }
 
+  .youtubevideo-section{
+    margin-top: 4% !important;
+    z-index: 1000;
+  }
   .product-section,
 .youtube-section,
-.youtubevideo-section,
 .product-02-section{
       padding-left: 8% !important;
       padding-right: 8% !important;
@@ -308,5 +314,11 @@
 }
 .product-horizontalline {
   margin-top: 50%;
+}
+
+.explorebackground-image {
+  background-image: url(../Assests/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left 60px top 50px; 
 }
 }

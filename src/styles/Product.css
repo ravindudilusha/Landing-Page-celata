@@ -7,6 +7,37 @@
   padding-top: 3% !important;
 }
 
+.video-preview {
+  position: relative; /* Ensure relative positioning */
+  margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+.thumbnail-container {
+  position: relative; /* Ensure relative positioning */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.thumbnail-image {
+  width: 100%; /* Ensure thumbnail image fills its container */
+  display: block; /* Ensure proper display */
+}
+
+.youtube-icon-container {
+  position: absolute; /* Position absolutely within its container */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center precisely */
+}
+
+.youtube-icon {
+  color: #ff0000; /* Icon color */
+  font-size: 48px; /* Adjust icon size */
+}
+
+/* Additional styles as per your requirements */
+
+
+
 .productimage {
   height: 450px;
 }
@@ -141,7 +172,7 @@
   font-size: 90px;
   color: rgba(227, 52, 47, 0.1);
   position: absolute;
-  top: -15px;
+  top: -25px;
   right: 20px;
   z-index: 0;
 }

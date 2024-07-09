@@ -118,7 +118,7 @@ function Product() {
       </div>
 
       {/* YouTube Section with Arrow */}
-      <div className="row youtube-section explorebackground-image">
+      <div className="pl-3 row youtube-section explorebackground-image">
         <div className="col-8 col-md-6">
           <div className="Explorequote-box">
             <p className="Explorequote-text">Explore Products</p>
